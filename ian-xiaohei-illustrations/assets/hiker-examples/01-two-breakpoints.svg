@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thick { fill: none; stroke: #111111; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+      .orange-fill { fill: #ef6a1f; }
+      .red { fill: #d32027; }
+      .blue { fill: #1f4ea8; }
+      .blue-stroke { fill: none; stroke: #1f4ea8; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 26px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 30px; fill: #d32027; }
+      .label-blue { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #1f4ea8; }
+      .label-orange { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #ef6a1f; }
+    </style>
+  </defs>
+
+  <!-- title center top (handwritten, underlined, red) -->
+  <text x="836" y="80" text-anchor="middle" class="label-red">两个断点</text>
+  <path class="ink-thin" d="M760 95 Q836 102 912 95" stroke="#d32027" stroke-width="2"/>
+
+  <!-- belt 1 (left) -->
+  <g transform="translate(80 330)">
+    <rect class="ink" x="0" y="0" width="380" height="100" rx="8"/>
+    <circle class="ink" cx="50" cy="100" r="22"/>
+    <circle class="ink" cx="330" cy="100" r="22"/>
+    <line class="ink-thin" x1="0" y1="100" x2="380" y2="100"/>
+    <!-- stacked papers on belt -->
+    <rect class="ink-thin" x="80" y="20" width="120" height="70" fill="#fff"/>
+    <line class="ink-thin" x1="100" y1="40" x2="180" y2="40"/>
+    <line class="ink-thin" x1="100" y1="55" x2="170" y2="55"/>
+    <line class="ink-thin" x1="100" y1="70" x2="160" y2="70"/>
+  </g>
+
+  <!-- belt 2 (center) -->
+  <g transform="translate(700 330)">
+    <rect class="ink" x="0" y="0" width="280" height="100" rx="8"/>
+    <circle class="ink" cx="50" cy="100" r="22"/>
+    <circle class="ink" cx="230" cy="100" r="22"/>
+    <line class="ink-thin" x1="0" y1="100" x2="280" y2="100"/>
+    <!-- 内容 sign on belt -->
+    <g transform="translate(110 -10)">
+      <line class="ink-thin" x1="30" y1="0" x2="30" y2="40"/>
+      <rect class="ink" x="0" y="40" width="60" height="50" fill="#fff"/>
+      <text x="30" y="72" text-anchor="middle" class="label">内容</text>
+    </g>
+  </g>
+
+  <!-- belt 3 (right, short) -->
+  <g transform="translate(1240 330)">
+    <rect class="ink" x="0" y="0" width="220" height="100" rx="8"/>
+    <circle class="ink" cx="40" cy="100" r="22"/>
+    <circle class="ink" cx="180" cy="100" r="22"/>
+    <line class="ink-thin" x1="0" y1="100" x2="220" y2="100"/>
+  </g>
+
+  <!-- LEFT hiker: lifting box overhead -->
+  <g transform="translate(440 290)">
+    <!-- legs -->
+    <line class="ink" x1="0" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="0" y1="80" x2="12" y2="130"/>
+    <!-- shoes -->
+    <path class="ink" d="M-22 130 q12 6 20 0"/>
+    <path class="ink" d="M2 130 q12 6 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-14" y="55" width="28" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-26 20 q26 -30 52 0 v40 q-26 14 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- arms raised -->
+    <path class="ink" d="M-20 30 q-30 -40 -20 -90"/>
+    <path class="ink" d="M20 30 q30 -40 20 -90"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <line class="ink-thin" x1="-26" y1="-2" x2="26" y2="-2"/>
+    <!-- headphones (over cap) -->
+    <path class="ink" d="M-26 -10 q0 -34 26 -34 q26 0 26 34" fill="none"/>
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+
+    <!-- box above head -->
+    <g transform="translate(-60 -130)">
+      <rect class="ink" x="0" y="0" width="120" height="80" fill="#fff"/>
+      <text x="60" y="50" text-anchor="middle" class="label">素材箱</text>
+    </g>
+    <!-- scattered papers -->
+    <g class="ink-thin">
+      <rect x="-110" y="-100" width="40" height="50" transform="rotate(-15 -90 -75)" fill="#fff"/>
+      <rect x="80" y="-90" width="40" height="50" transform="rotate(20 100 -65)" fill="#fff"/>
+      <rect x="-150" y="-30" width="40" height="50" transform="rotate(8 -130 -5)" fill="#fff"/>
+    </g>
+  </g>
+
+  <!-- RIGHT hiker: stuck in pit -->
+  <g transform="translate(1370 460)">
+    <!-- pit ellipse -->
+    <ellipse class="ink" cx="0" cy="0" rx="120" ry="40"/>
+    <ellipse class="ink-thin" cx="0" cy="-2" rx="105" ry="30" fill="#fff"/>
+    <!-- hiker head + shoulders above ground -->
+    <!-- shoulders -->
+    <path class="ink" d="M-30 -2 q30 -28 60 0" fill="#f0f0f0"/>
+    <!-- arms: one raised -->
+    <path class="ink" d="M-30 -2 q-30 -50 -10 -90"/>
+    <path class="ink" d="M30 -2 q30 10 30 40"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="-50" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -55 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 -42 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -58 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-55" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-55" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="-48" r="1.6" fill="#111"/>
+    <circle cx="7" cy="-48" r="1.6" fill="#111"/>
+  </g>
+
+  <!-- falling sign near right hiker -->
+  <g transform="translate(1480 280) rotate(25)">
+    <rect class="ink" x="-40" y="-30" width="80" height="60" fill="#fff"/>
+    <text x="0" y="8" text-anchor="middle" class="label">内容</text>
+    <!-- motion lines -->
+    <line class="ink-thin" x1="0" y1="40" x2="0" y2="60"/>
+    <line class="ink-thin" x1="-15" y1="35" x2="-15" y2="55"/>
+    <line class="ink-thin" x1="15" y1="35" x2="15" y2="55"/>
+  </g>
+
+  <!-- ORANGE horizontal flow arrows -->
+  <path class="orange" d="M180 540 q90 -6 180 0"/>
+  <polygon class="orange-fill" points="360,540 380,532 380,548"/>
+  <path class="orange" d="M820 540 q90 -6 180 0"/>
+  <polygon class="orange-fill" points="1000,540 1020,532 1020,548"/>
+
+  <!-- blue stage labels -->
+  <text x="160" y="250" class="label-blue">写之前</text>
+  <text x="1430" y="250" class="label-blue">写完之后</text>
+
+  <!-- red gap annotations -->
+  <text x="490" y="700" class="label-red">素材枯了</text>
+  <text x="780" y="700" class="label-red">没承接</text>
+
+  <!-- orange vertical arrows pointing up to gaps -->
+  <path class="orange" d="M540 680 q-4 -50 -8 -100"/>
+  <polygon class="orange-fill" points="528,575 538,580 540,594"/>
+  <path class="orange" d="M840 680 q-4 -50 -8 -100"/>
+  <polygon class="orange-fill" points="828,575 838,580 840,594"/>
+</svg>

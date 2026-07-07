@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #ffffff; stroke: #111111; stroke-width: 2.6; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.4; stroke-linecap: round; stroke-linejoin: round; }
+      .orange-fill { fill: #ef6a1f; }
+      .blue-dash { fill: none; stroke: #1f4ea8; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 10 8; }
+      .red { fill: #d32027; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 24px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 26px; fill: #d32027; }
+      .label-blue { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #1f4ea8; }
+    </style>
+  </defs>
+
+  <!-- 信息源 (red, top-left) -->
+  <text x="120" y="170" class="label-red">信息源</text>
+
+  <!-- Three input trays stacked -->
+  <g transform="translate(120 220)">
+    <rect class="ink-fill" x="0" y="0" width="220" height="60" rx="6"/>
+    <!-- satellite dish -->
+    <path class="ink-thin" d="M40 50 q-20 -30 0 -50"/>
+    <line class="ink-thin" x1="40" y1="50" x2="40" y2="35"/>
+    <ellipse class="ink-thin" cx="40" cy="0" rx="18" ry="10" fill="#fff"/>
+    <!-- papers -->
+    <rect class="ink-thin" x="100" y="20" width="80" height="30" fill="#fff"/>
+    <line class="ink-thin" x1="110" y1="32" x2="170" y2="32"/>
+    <line class="ink-thin" x1="110" y1="40" x2="160" y2="40"/>
+  </g>
+  <g transform="translate(120 300)">
+    <rect class="ink-fill" x="0" y="0" width="220" height="60" rx="6"/>
+    <!-- documents -->
+    <rect class="ink-thin" x="30" y="20" width="60" height="35" fill="#fff"/>
+    <rect class="ink-thin" x="50" y="12" width="60" height="35" fill="#fff"/>
+    <!-- spiral -->
+    <circle class="ink-thin" cx="140" cy="30" r="12"/>
+    <line class="ink-thin" x1="160" y1="20" x2="200" y2="20"/>
+    <line class="ink-thin" x1="160" y1="32" x2="195" y2="32"/>
+    <line class="ink-thin" x1="160" y1="42" x2="190" y2="42"/>
+  </g>
+  <g transform="translate(120 380)">
+    <rect class="ink-fill" x="0" y="0" width="220" height="60" rx="6"/>
+    <!-- speech bubbles -->
+    <path class="ink-thin" d="M30 30 q0 -16 20 -16 q20 0 20 16 q0 12 -16 12 l-4 8 l-4 -8 q-16 0 -16 -12 z" fill="#fff"/>
+    <path class="ink-thin" d="M90 30 q0 -16 20 -16 q20 0 20 16 q0 12 -16 12 l-4 8 l-4 -8 q-16 0 -16 -12 z" fill="#fff"/>
+    <line class="ink-thin" x1="150" y1="22" x2="200" y2="22"/>
+    <line class="ink-thin" x1="150" y1="34" x2="195" y2="34"/>
+    <line class="ink-thin" x1="150" y1="44" x2="190" y2="44"/>
+  </g>
+
+  <!-- Orange arrows from trays to machine -->
+  <path class="orange" d="M350 250 q60 -10 130 0"/>
+  <polygon class="orange-fill" points="480,250 500,242 500,258"/>
+  <path class="orange" d="M350 330 q60 -10 130 0"/>
+  <polygon class="orange-fill" points="480,330 500,322 500,338"/>
+  <path class="orange" d="M350 410 q60 -10 130 0"/>
+  <polygon class="orange-fill" points="480,410 500,402 500,418"/>
+
+  <!-- Center: TV/machine with hiker inside -->
+  <g transform="translate(640 200)">
+    <!-- body -->
+    <rect class="ink" x="0" y="0" width="320" height="300" rx="12"/>
+    <!-- light bulb top-left -->
+    <circle class="ink" cx="50" cy="-20" r="14" fill="#fff"/>
+    <line class="ink-thin" x1="50" y1="-6" x2="50" y2="0"/>
+    <!-- chimney top-right -->
+    <rect class="ink" x="240" y="-30" width="30" height="30" fill="#fff"/>
+    <path class="ink-thin" d="M235 -36 q15 -16 0 -30 q-15 14 0 30 z" fill="#dfe7f5"/>
+    <!-- eyes on top -->
+    <circle cx="120" cy="-5" r="6" fill="#fff" stroke="#111" stroke-width="2"/>
+    <circle cx="200" cy="-5" r="6" fill="#fff" stroke="#111" stroke-width="2"/>
+    <circle cx="120" cy="-5" r="2" fill="#111"/>
+    <circle cx="200" cy="-5" r="2" fill="#111"/>
+    <!-- left dial -->
+    <circle class="ink" cx="-25" cy="120" r="20" fill="#fff"/>
+    <line class="ink-thin" x1="-25" y1="120" x2="-25" y2="105"/>
+    <!-- right dial -->
+    <circle class="ink" cx="345" cy="120" r="20" fill="#fff"/>
+    <line class="ink-thin" x1="345" y1="120" x2="345" y2="105"/>
+    <!-- screen area interior -->
+    <rect class="ink-thin" x="40" y="40" width="240" height="180" fill="#fff"/>
+    <!-- HIKER inside screen -->
+    <g transform="translate(160 130)">
+      <!-- legs -->
+      <line class="ink" x1="-4" y1="40" x2="-12" y2="80"/>
+      <line class="ink" x1="4" y1="40" x2="12" y2="80"/>
+      <path class="ink" d="M-20 80 q10 4 16 0"/>
+      <path class="ink" d="M4 80 q10 4 16 0"/>
+      <!-- jeans -->
+      <rect class="ink-thin" x="-12" y="20" width="24" height="40" fill="#dfe7f5"/>
+      <!-- hoodie -->
+      <path class="ink" d="M-26 -10 q26 -28 52 0 v35 q-26 12 -52 0 z" fill="#f0f0f0"/>
+      <!-- triangle logo -->
+      <path class="ink-thin" d="M-2 0 l4 -8 l4 8 z"/>
+      <!-- left arm down -->
+      <path class="ink" d="M-22 -5 q-12 18 -10 30"/>
+      <!-- right arm extended pulling lever -->
+      <path class="ink" d="M22 0 q40 -10 70 -30"/>
+      <!-- lever -->
+      <line class="ink" x1="92" y1="-30" x2="110" y2="-50"/>
+      <circle class="ink-fill" cx="112" cy="-52" r="6"/>
+      <!-- head -->
+      <circle class="ink" cx="0" cy="-32" r="18" fill="#fff"/>
+      <!-- hair -->
+      <path class="ink-thin" d="M-18 -36 q0 -20 18 -20 q18 0 18 20"/>
+      <!-- beard -->
+      <path class="ink-thin" d="M-10 -22 q10 12 20 0"/>
+      <!-- cap -->
+      <path class="ink" d="M-20 -38 q0 -24 20 -24 q20 0 20 24 z" fill="#cdd9f0"/>
+      <line class="ink-thin" x1="-22" y1="-34" x2="22" y2="-34"/>
+      <!-- headphones -->
+      <ellipse class="ink" cx="-22" cy="-36" rx="5" ry="8" fill="#cdd9f0"/>
+      <ellipse class="ink" cx="22" cy="-36" rx="5" ry="8" fill="#cdd9f0"/>
+      <!-- eyes -->
+      <circle cx="-6" cy="-30" r="1.4" fill="#111"/>
+      <circle cx="6" cy="-30" r="1.4" fill="#111"/>
+    </g>
+    <!-- judgment label inside -->
+    <text x="220" y="180" class="label-red">判断</text>
+    <path class="ink-thin" d="M240 175 q10 0 18 -10"/>
+    <!-- control panel -->
+    <rect class="ink-thin" x="60" y="260" width="200" height="30" fill="#fff"/>
+    <circle class="ink" cx="90" cy="275" r="6"/>
+    <circle class="ink" cx="120" cy="275" r="6"/>
+    <rect class="ink-thin" x="150" y="268" width="80" height="14" fill="#fff"/>
+  </g>
+
+  <!-- 内容生产 label -->
+  <text x="780" y="170" class="label-red">内容生产</text>
+
+  <!-- Orange arrows from machine to outputs -->
+  <path class="orange" d="M980 280 q60 -8 130 0"/>
+  <polygon class="orange-fill" points="1110,280 1130,272 1130,288"/>
+  <path class="orange" d="M980 350 q60 -8 130 0"/>
+  <polygon class="orange-fill" points="1110,350 1130,342 1130,358"/>
+  <path class="orange" d="M980 420 q60 -8 130 0"/>
+  <polygon class="orange-fill" points="1110,420 1130,412 1130,428"/>
+
+  <!-- Three output cards -->
+  <g transform="translate(1140 240)">
+    <rect class="ink-fill" x="0" y="0" width="160" height="80" rx="6"/>
+    <!-- mountain icon -->
+    <path class="ink-thin" d="M30 60 l30 -30 l20 18 l15 -10 l20 22 z" fill="#dfe7f5"/>
+    <circle class="ink-thin" cx="120" cy="20" r="8"/>
+  </g>
+  <g transform="translate(1140 310)">
+    <rect class="ink-fill" x="0" y="0" width="160" height="80" rx="6"/>
+    <polygon class="ink" points="70,25 90,40 70,55"/>
+    <circle class="ink" cx="80" cy="40" r="20" fill="#fff"/>
+  </g>
+  <g transform="translate(1140 380)">
+    <rect class="ink-fill" x="0" y="0" width="160" height="80" rx="6"/>
+    <text x="80" y="50" text-anchor="middle" font-size="32" fill="#111">"</text>
+    <text x="80" y="50" text-anchor="middle" font-size="32" fill="#111" transform="scale(-1 1) translate(-160 0)">"</text>
+  </g>
+
+  <!-- Orange arrows from outputs to mailbox -->
+  <path class="orange" d="M1310 300 q60 0 110 -10"/>
+  <polygon class="orange-fill" points="1420,290 1440,282 1440,298"/>
+
+  <!-- 承接 label -->
+  <text x="1430" y="170" class="label-red">承接</text>
+
+  <!-- Mailbox -->
+  <g transform="translate(1450 240)">
+    <rect class="ink-fill" x="0" y="40" width="120" height="80" rx="4"/>
+    <path class="ink" d="M0 40 q60 -30 120 0"/>
+    <rect class="ink-fill" x="-10" y="0" width="20" height="40"/>
+    <line class="ink-thin" x1="-12" y1="5" x2="12" y2="5"/>
+    <!-- flag -->
+    <line class="ink" x1="110" y1="-10" x2="110" y2="20"/>
+    <polygon class="orange-fill" points="110,-10 130,-2 110,8"/>
+    <!-- steps -->
+    <path class="ink" d="M120 120 l30 0 l0 10 l-30 0 z" fill="#fff"/>
+    <path class="ink" d="M120 130 l50 0 l0 10 l-50 0 z" fill="#fff"/>
+  </g>
+
+  <!-- Blue dashed feedback loop arrow -->
+  <path class="blue-dash" d="M1500 500 q-100 80 -300 100 q-400 40 -700 -10 q-200 -30 -380 -50"/>
+  <polygon fill="#1f4ea8" points="120,540 140,532 140,548"/>
+
+  <!-- 反馈回收 label -->
+  <text x="700" y="820" class="label-blue">反馈回收</text>
+</svg>

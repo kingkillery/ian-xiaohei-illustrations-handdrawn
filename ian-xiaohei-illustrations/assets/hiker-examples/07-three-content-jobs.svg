@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #ffffff; stroke: #111111; stroke-width: 2.6; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.4; stroke-linecap: round; stroke-linejoin: round; }
+      .orange-fill { fill: #ef6a1f; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 24px; fill: #d32027; }
+      .label-orange { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #ef6a1f; }
+      .label-blue { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #1f4ea8; }
+    </style>
+  </defs>
+
+  <!-- LEFT: Document/article -->
+  <g transform="translate(80 220)">
+    <rect class="ink-fill" x="0" y="0" width="320" height="500"/>
+    <rect class="ink-thin" x="40" y="30" width="240" height="160" fill="#fff"/>
+    <line class="ink-thin" x1="40" y1="220" x2="280" y2="220"/>
+    <line class="ink-thin" x1="40" y1="240" x2="270" y2="240"/>
+    <line class="ink-thin" x1="40" y1="260" x2="280" y2="260"/>
+    <line class="ink-thin" x1="40" y1="280" x2="240" y2="280"/>
+    <line class="ink-thin" x1="40" y1="300" x2="280" y2="300"/>
+    <line class="ink-thin" x1="40" y1="320" x2="220" y2="320"/>
+    <line class="ink-thin" x1="40" y1="340" x2="280" y2="340"/>
+    <line class="ink-thin" x1="40" y1="360" x2="240" y2="360"/>
+    <line class="ink-thin" x1="40" y1="380" x2="270" y2="380"/>
+    <line class="ink-thin" x1="40" y1="400" x2="280" y2="400"/>
+    <line class="ink-thin" x1="40" y1="420" x2="220" y2="420"/>
+    <line class="ink-thin" x1="40" y1="440" x2="260" y2="440"/>
+  </g>
+
+  <!-- LEFT Hiker beside document pointing to it -->
+  <g transform="translate(80 480)">
+    <!-- legs -->
+    <line class="ink" x1="-4" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="4" y1="80" x2="12" y2="130"/>
+    <path class="ink" d="M-22 130 q12 4 20 0"/>
+    <path class="ink" d="M2 130 q12 4 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-12" y="55" width="24" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-26 20 q26 -28 52 0 v40 q-26 12 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- arm pointing right at document -->
+    <path class="ink" d="M20 28 q40 0 70 -10"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+  </g>
+
+  <!-- 别混用 red center label -->
+  <text x="836" y="450" text-anchor="middle" class="label-red">别混用</text>
+
+  <!-- 3 orange curving arrows from trunk to each branch -->
+  <path class="orange" d="M420 470 Q 700 320 900 220"/>
+  <polygon class="orange-fill" points="900,220 920,210 920,230"/>
+  <text x="700" y="290" class="label-orange">流量</text>
+
+  <path class="orange" d="M420 470 Q 700 470 900 470"/>
+  <polygon class="orange-fill" points="900,470 920,462 920,478"/>
+  <text x="700" y="450" class="label-orange">信任</text>
+
+  <path class="orange" d="M420 470 Q 700 620 900 720"/>
+  <polygon class="orange-fill" points="900,720 920,712 920,728"/>
+  <text x="700" y="640" class="label-orange">转化</text>
+
+  <!-- TOP-RIGHT: Hiker with megaphone broadcasting -->
+  <g transform="translate(1180 140)">
+    <!-- legs -->
+    <line class="ink" x1="-4" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="4" y1="80" x2="12" y2="130"/>
+    <path class="ink" d="M-22 130 q12 4 20 0"/>
+    <path class="ink" d="M2 130 q12 4 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-12" y="55" width="24" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-26 20 q26 -28 52 0 v40 q-26 12 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- left arm holding megaphone -->
+    <path class="ink" d="M-26 30 q-30 -10 -50 -20"/>
+    <!-- megaphone -->
+    <polygon class="ink-fill" points="-70,-30 -110,-50 -110,-10"/>
+    <rect class="ink-fill" x="-90" y="-30" width="20" height="20"/>
+    <!-- sound lines -->
+    <line class="ink-thin" x1="-130" y1="-50" x2="-150" y2="-55"/>
+    <line class="ink-thin" x1="-130" y1="-30" x2="-160" y2="-30"/>
+    <line class="ink-thin" x1="-130" y1="-10" x2="-150" y2="-5"/>
+    <!-- right arm -->
+    <path class="ink" d="M26 30 q14 8 18 30"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+  </g>
+  <!-- 4 audience figures -->
+  <g transform="translate(1450 130)">
+    <circle class="ink-fill" cx="0" cy="0" r="14"/>
+    <line class="ink" x1="0" y1="14" x2="0" y2="40"/>
+    <line class="ink" x1="0" y1="22" x2="-12" y2="35"/>
+    <line class="ink" x1="0" y1="22" x2="12" y2="35"/>
+  </g>
+  <g transform="translate(1500 150)">
+    <circle class="ink-fill" cx="0" cy="0" r="14"/>
+    <line class="ink" x1="0" y1="14" x2="0" y2="40"/>
+    <line class="ink" x1="0" y1="22" x2="-12" y2="35"/>
+    <line class="ink" x1="0" y1="22" x2="12" y2="35"/>
+  </g>
+  <g transform="translate(1450 200)">
+    <circle class="ink-fill" cx="0" cy="0" r="14"/>
+    <line class="ink" x1="0" y1="14" x2="0" y2="40"/>
+    <line class="ink" x1="0" y1="22" x2="-12" y2="35"/>
+    <line class="ink" x1="0" y1="22" x2="12" y2="35"/>
+  </g>
+  <g transform="translate(1500 220)">
+    <circle class="ink-fill" cx="0" cy="0" r="14"/>
+    <line class="ink" x1="0" y1="14" x2="0" y2="40"/>
+    <line class="ink" x1="0" y1="22" x2="-12" y2="35"/>
+    <line class="ink" x1="0" y1="22" x2="12" y2="35"/>
+  </g>
+  <!-- 被看见 blue label -->
+  <text x="1620" y="200" class="label-blue">被看见</text>
+
+  <!-- MIDDLE-RIGHT: Hiker laying bridge stones across water -->
+  <g transform="translate(1180 470)">
+    <!-- legs -->
+    <line class="ink" x1="-4" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="4" y1="80" x2="12" y2="130"/>
+    <path class="ink" d="M-22 130 q12 4 20 0"/>
+    <path class="ink" d="M2 130 q12 4 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-12" y="55" width="24" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-26 20 q26 -28 52 0 v40 q-26 12 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- arms reaching down to lay stones -->
+    <path class="ink" d="M-20 30 q-30 30 -50 60"/>
+    <path class="ink" d="M20 30 q30 30 50 60"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+  </g>
+  <!-- stone bridge arching over water -->
+  <g transform="translate(1230 660)">
+    <rect class="ink-fill" x="-30" y="-10" width="40" height="20"/>
+    <rect class="ink-fill" x="20" y="-10" width="40" height="20"/>
+    <rect class="ink-fill" x="80" y="-10" width="40" height="20"/>
+    <!-- water waves -->
+    <path class="ink-thin" d="M-80 30 q20 -8 40 0 q20 8 40 0 q20 -8 40 0 q20 8 40 0 q20 -8 40 0 q20 8 40 0"/>
+    <path class="ink-thin" d="M-80 50 q20 -8 40 0 q20 8 40 0 q20 -8 40 0 q20 8 40 0 q20 -8 40 0 q20 8 40 0"/>
+  </g>
+  <!-- 被相信 blue label -->
+  <text x="1620" y="500" class="label-blue">被相信</text>
+
+  <!-- BOTTOM-RIGHT: Hiker opening door -->
+  <g transform="translate(1180 720)">
+    <!-- legs -->
+    <line class="ink" x1="-4" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="4" y1="80" x2="12" y2="130"/>
+    <path class="ink" d="M-22 130 q12 4 20 0"/>
+    <path class="ink" d="M2 130 q12 4 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-12" y="55" width="24" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-26 20 q26 -28 52 0 v40 q-26 12 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- arms reaching out to open door -->
+    <path class="ink" d="M-20 30 q-40 30 -60 60"/>
+    <path class="ink" d="M20 30 q20 30 30 60"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+  </g>
+  <!-- door with welcome sign -->
+  <g transform="translate(1330 740)">
+    <rect class="ink-fill" x="0" y="0" width="120" height="140"/>
+    <line class="ink-thin" x1="60" y1="0" x2="60" y2="140"/>
+    <circle class="ink-fill" cx="48" cy="80" r="4"/>
+    <!-- hanging sign -->
+    <line class="ink" x1="60" y1="-30" x2="60" y2="0"/>
+    <rect class="ink-fill" x="40" y="-50" width="80" height="30"/>
+    <text x="80" y="-30" text-anchor="middle" class="label" font-size="16">欢迎</text>
+  </g>
+  <!-- 来找你 blue label -->
+  <text x="1620" y="800" class="label-blue">来找你</text>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #ffffff; stroke: #111111; stroke-width: 2.6; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.4; stroke-linecap: round; stroke-linejoin: round; }
+      .blue-stroke { fill: none; stroke: #1f4ea8; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 24px; fill: #d32027; }
+      .label-blue { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #1f4ea8; }
+    </style>
+  </defs>
+
+  <!-- ORANGE winding path -->
+  <path class="orange" d="M120 720 Q 280 700 420 720 T 720 720 T 1020 720 T 1320 720 T 1540 720"/>
+
+  <!-- LEFT HOLE 1: stacked paper cards labeled 热搜/热点/热 -->
+  <g transform="translate(380 580)">
+    <ellipse class="ink" cx="0" cy="0" rx="120" ry="40"/>
+    <ellipse class="ink-thin" cx="0" cy="-2" rx="105" ry="30" fill="#111"/>
+    <!-- stacked paper cards inside -->
+    <rect class="ink-fill" x="-60" y="-10" width="60" height="20"/>
+    <text x="-30" y="5" text-anchor="middle" class="label" font-size="14">热搜</text>
+    <rect class="ink-fill" x="-20" y="-20" width="60" height="20"/>
+    <text x="10" y="-5" text-anchor="middle" class="label" font-size="14">热点</text>
+    <rect class="ink-fill" x="20" y="-30" width="50" height="20"/>
+    <text x="45" y="-15" text-anchor="middle" class="label" font-size="14">热</text>
+  </g>
+  <!-- 只追热点 red label above hole 1 -->
+  <text x="380" y="480" text-anchor="middle" class="label-red">只追热点</text>
+  <!-- red exclamation marks around hole 1 -->
+  <g stroke="#d32027" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M260 510 l-2 -16 l4 0 l-2 16 z M258 530 l4 0"/>
+    <path d="M500 510 l-2 -16 l4 0 l-2 16 z M498 530 l4 0"/>
+  </g>
+  <!-- red downward arrow -->
+  <path d="M380 540 v60" stroke="#d32027" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon fill="#d32027" points="374,600 386,600 380,612"/>
+
+  <!-- MIDDLE HOLE 2: cracked pit with papers falling inside -->
+  <g transform="translate(720 580)">
+    <ellipse class="ink" cx="0" cy="0" rx="120" ry="40"/>
+    <!-- cracked edges -->
+    <path class="ink-thin" d="M-100 -10 l-10 -8 l-8 12 M-80 -28 l-8 -10 M100 -10 l10 -8 l8 12 M80 -28 l8 -10"/>
+    <!-- papers falling -->
+    <rect class="ink-fill" x="-50" y="-10" width="50" height="20" transform="rotate(-15 -25 0)"/>
+    <text x="-25" y="4" text-anchor="middle" class="label" font-size="12">内容</text>
+    <rect class="ink-fill" x="-20" y="-20" width="50" height="20" transform="rotate(10 5 -10)"/>
+    <text x="5" y="-6" text-anchor="middle" class="label" font-size="12">内容卡</text>
+    <rect class="ink-fill" x="20" y="-30" width="40" height="20" transform="rotate(-8 40 -20)"/>
+  </g>
+  <!-- 没承接 red label above hole 2 -->
+  <text x="720" y="480" text-anchor="middle" class="label-red">没承接</text>
+  <!-- red downward arrow -->
+  <path d="M720 540 v60" stroke="#d32027" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon fill="#d32027" points="714,600 726,600 720,612"/>
+
+  <!-- RIGHT HOLE 3: robot inside -->
+  <g transform="translate(1060 580)">
+    <ellipse class="ink" cx="0" cy="0" rx="120" ry="40"/>
+    <ellipse class="ink-thin" cx="0" cy="-2" rx="105" ry="30" fill="#111"/>
+    <!-- robot body -->
+    <rect class="ink-fill" x="-40" y="-30" width="80" height="60"/>
+    <line class="ink-thin" x1="-40" y1="-10" x2="40" y2="-10"/>
+    <!-- antenna -->
+    <line class="ink" x1="0" y1="-30" x2="0" y2="-50"/>
+    <circle class="ink-fill" cx="0" cy="-54" r="4"/>
+    <!-- face screen -->
+    <rect class="ink-fill" x="-26" y="-4" width="52" height="30"/>
+    <text x="0" y="14" text-anchor="middle" class="label" font-size="14">AI初稿</text>
+  </g>
+  <!-- AI初稿直发 red label -->
+  <text x="1060" y="480" text-anchor="middle" class="label-red">AI初稿直发</text>
+  <!-- red downward arrow -->
+  <path d="M1060 540 v60" stroke="#d32027" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon fill="#d32027" points="1054,600 1066,600 1060,612"/>
+
+  <!-- Hiker far left walking along path, holding up warning sign -->
+  <g transform="translate(140 620)">
+    <!-- legs -->
+    <line class="ink" x1="-4" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="4" y1="80" x2="12" y2="130"/>
+    <path class="ink" d="M-22 130 q12 4 20 0"/>
+    <path class="ink" d="M2 130 q12 4 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-12" y="55" width="24" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-26 20 q26 -28 52 0 v40 q-26 12 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- both arms raised holding sign -->
+    <path class="ink" d="M-22 28 q-20 -50 -10 -80"/>
+    <path class="ink" d="M22 28 q20 -50 10 -80"/>
+    <!-- sign held up -->
+    <rect class="ink-fill" x="-30" y="-130" width="60" height="50"/>
+    <text x="0" y="-100" text-anchor="middle" fill="#d32027" font-size="32" font-weight="bold">!</text>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+  </g>
+
+  <!-- BLUE curved arrow far right -->
+  <path class="blue-stroke" d="M1540 720 q60 -40 80 -100"/>
+  <polygon fill="#1f4ea8" points="1614,610 1632,616 1622,628"/>
+
+  <!-- 长文别空着 blue label -->
+  <text x="1500" y="850" class="label-blue">长文别空着</text>
+  <path class="blue-stroke" d="M1560 850 q-30 -10 -50 -40"/>
+</svg>

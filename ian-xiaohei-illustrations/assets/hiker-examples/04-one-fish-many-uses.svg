@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #ffffff; stroke: #111111; stroke-width: 2.6; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.4; stroke-linecap: round; stroke-linejoin: round; }
+      .orange-fill { fill: #ef6a1f; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 24px; fill: #d32027; }
+    </style>
+  </defs>
+
+  <!-- Phone/cutting board on the left -->
+  <g transform="translate(120 200)">
+    <rect class="ink-fill" x="0" y="0" width="280" height="500" rx="24"/>
+    <!-- camera lens -->
+    <circle class="ink" cx="140" cy="35" r="10" fill="#fff"/>
+    <circle class="ink-thin" cx="140" cy="35" r="5"/>
+    <!-- screen icons -->
+    <circle class="ink-thin" cx="80" cy="35" r="3"/>
+    <circle class="ink-thin" cx="200" cy="35" r="3"/>
+    <rect class="ink-thin" x="100" y="80" width="80" height="200" rx="4" fill="#fff"/>
+    <!-- fish on screen -->
+    <g transform="translate(140 180)">
+      <ellipse class="ink-thin" cx="0" cy="0" rx="60" ry="25" fill="#fff"/>
+      <path class="ink-thin" d="M-60 0 l-30 -25 l0 50 z" fill="#fff"/>
+      <circle class="ink-thin" cx="40" cy="-5" r="3"/>
+      <line class="ink-thin" x1="38" y1="-7" x2="42" y2="-3"/>
+      <line class="ink-thin" x1="38" y1="-3" x2="42" y2="-7"/>
+      <!-- X eye -->
+      <line class="ink-thin" x1="38" y1="-8" x2="44" y2="-2"/>
+      <line class="ink-thin" x1="38" y1="-2" x2="44" y2="-8"/>
+      <!-- 4 vertical cut lines -->
+      <line class="ink" x1="-40" y1="-22" x2="-40" y2="22" stroke-dasharray="4 4"/>
+      <line class="ink" x1="-15" y1="-25" x2="-15" y2="25" stroke-dasharray="4 4"/>
+      <line class="ink" x1="10" y1="-25" x2="10" y2="25" stroke-dasharray="4 4"/>
+      <text x="0" y="60" text-anchor="middle" class="label">好素材</text>
+    </g>
+  </g>
+
+  <!-- Hiker on top of phone, cutting fish -->
+  <g transform="translate(140 230)">
+    <!-- legs on phone -->
+    <line class="ink" x1="-12" y1="80" x2="-20" y2="120"/>
+    <line class="ink" x1="12" y1="80" x2="20" y2="120"/>
+    <path class="ink" d="M-30 120 q10 4 18 0"/>
+    <path class="ink" d="M2 120 q10 4 18 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-22" y="55" width="44" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-40 -20 q40 -32 80 0 v60 q-40 16 -80 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 -12 l4 -8 l4 8 z"/>
+    <!-- head leaning forward -->
+    <circle class="ink" cx="0" cy="-50" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -55 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 -38 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -58 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-55" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-55" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="-48" r="1.6" fill="#111"/>
+    <circle cx="7" cy="-48" r="1.6" fill="#111"/>
+    <!-- right arm holding knife extended down -->
+    <path class="ink" d="M40 0 q30 30 50 80"/>
+    <!-- knife -->
+    <line class="ink" x1="92" y1="78" x2="110" y2="120"/>
+    <polygon class="ink-fill" points="105,118 115,118 110,128"/>
+    <line class="ink" x1="92" y1="78" x2="92" y2="92"/>
+  </g>
+
+  <!-- 4 documents on the right -->
+  <g transform="translate(520 200)">
+    <rect class="ink-fill" x="0" y="0" width="220" height="280" rx="4"/>
+    <line class="ink-thin" x1="20" y1="40" x2="200" y2="40"/>
+    <line class="ink-thin" x1="20" y1="60" x2="180" y2="60"/>
+    <line class="ink-thin" x1="20" y1="80" x2="190" y2="80"/>
+    <line class="ink-thin" x1="20" y1="100" x2="170" y2="100"/>
+    <line class="ink-thin" x1="20" y1="120" x2="195" y2="120"/>
+    <line class="ink-thin" x1="20" y1="140" x2="170" y2="140"/>
+    <text x="110" y="180" text-anchor="middle" class="label">流量帖</text>
+  </g>
+  <g transform="translate(800 200)">
+    <rect class="ink-fill" x="0" y="0" width="220" height="280" rx="4"/>
+    <line class="ink-thin" x1="20" y1="40" x2="200" y2="40"/>
+    <line class="ink-thin" x1="20" y1="60" x2="180" y2="60"/>
+    <line class="ink-thin" x1="20" y1="80" x2="190" y2="80"/>
+    <line class="ink-thin" x1="20" y1="100" x2="170" y2="100"/>
+    <line class="ink-thin" x1="20" y1="120" x2="195" y2="120"/>
+    <line class="ink-thin" x1="20" y1="140" x2="170" y2="140"/>
+    <text x="110" y="180" text-anchor="middle" class="label">信任帖</text>
+  </g>
+  <g transform="translate(1080 200)">
+    <rect class="ink-fill" x="0" y="0" width="220" height="280" rx="4"/>
+    <line class="ink-thin" x1="20" y1="40" x2="200" y2="40"/>
+    <line class="ink-thin" x1="20" y1="60" x2="180" y2="60"/>
+    <line class="ink-thin" x1="20" y1="80" x2="190" y2="80"/>
+    <line class="ink-thin" x1="20" y1="100" x2="170" y2="100"/>
+    <line class="ink-thin" x1="20" y1="120" x2="195" y2="120"/>
+    <line class="ink-thin" x1="20" y1="140" x2="170" y2="140"/>
+    <text x="110" y="180" text-anchor="middle" class="label">长文</text>
+  </g>
+  <g transform="translate(1360 200)">
+    <rect class="ink-fill" x="0" y="0" width="220" height="280" rx="4"/>
+    <line class="ink-thin" x1="20" y1="40" x2="200" y2="40"/>
+    <line class="ink-thin" x1="20" y1="60" x2="180" y2="60"/>
+    <line class="ink-thin" x1="20" y1="80" x2="190" y2="80"/>
+    <line class="ink-thin" x1="20" y1="100" x2="170" y2="100"/>
+    <line class="ink-thin" x1="20" y1="120" x2="195" y2="120"/>
+    <line class="ink-thin" x1="20" y1="140" x2="170" y2="140"/>
+    <text x="110" y="180" text-anchor="middle" class="label">营销文</text>
+  </g>
+
+  <!-- 3 orange curved arrows between documents -->
+  <path class="orange" d="M740 340 q40 -30 80 0 q-40 30 80 0"/>
+  <polygon class="orange-fill" points="900,335 910,346 902,360"/>
+  <path class="orange" d="M1020 340 q40 -30 80 0 q-40 30 80 0"/>
+  <polygon class="orange-fill" points="1180,335 1190,346 1182,360"/>
+  <path class="orange" d="M1300 340 q40 -30 80 0 q-40 30 80 0"/>
+  <polygon class="orange-fill" points="1460,335 1470,346 1462,360"/>
+
+  <!-- Timeline arrow beneath documents -->
+  <path class="orange" d="M520 580 l1080 0"/>
+  <polygon class="orange-fill" points="1600,580 1620,572 1620,588"/>
+  <!-- tick marks -->
+  <line class="orange" x1="540" y1="572" x2="540" y2="588"/>
+  <line class="orange" x1="820" y1="572" x2="820" y2="588"/>
+  <line class="orange" x1="1100" y1="572" x2="1100" y2="588"/>
+  <line class="orange" x1="1380" y1="572" x2="1380" y2="588"/>
+
+  <!-- Timeline labels -->
+  <text x="540" y="620" text-anchor="middle" class="label">先发</text>
+  <text x="820" y="620" text-anchor="middle" class="label-red">3-7天</text>
+  <text x="1380" y="620" text-anchor="middle" class="label">压轴</text>
+
+  <!-- Red bottom-center caption -->
+  <text x="836" y="780" text-anchor="middle" class="label-red">别一次发完</text>
+</svg>

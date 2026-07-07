@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #ffffff; stroke: #111111; stroke-width: 2.6; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.4; stroke-linecap: round; stroke-linejoin: round; }
+      .blue-stroke { fill: none; stroke: #1f4ea8; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 20px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #d32027; }
+      .label-blue { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #1f4ea8; }
+    </style>
+  </defs>
+
+  <!-- LEFT CLIFF -->
+  <g transform="translate(0 540)">
+    <path class="ink-fill" d="M0 100 L440 100 L420 180 L20 200 z"/>
+    <!-- grass tufts -->
+    <path class="ink-thin" d="M60 100 l-4 -10 M70 100 l4 -10 M200 100 l-3 -10 M210 100 l5 -10"/>
+    <!-- pebble -->
+    <ellipse class="ink-fill" cx="380" cy="115" rx="14" ry="6"/>
+  </g>
+
+  <!-- RIGHT CLIFF -->
+  <g transform="translate(1240 540)">
+    <path class="ink-fill" d="M0 100 L440 100 L420 200 L20 180 z"/>
+    <path class="ink-thin" d="M60 100 l-4 -10 M70 100 l4 -10 M280 100 l-3 -10 M290 100 l5 -10"/>
+    <!-- flower -->
+    <g transform="translate(360 100)">
+      <line class="ink-thin" x1="0" y1="0" x2="0" y2="-20"/>
+      <circle class="ink-fill" cx="-6" cy="-22" r="4"/>
+      <circle class="ink-fill" cx="6" cy="-22" r="4"/>
+      <circle class="ink-fill" cx="0" cy="-26" r="4"/>
+      <circle class="orange-fill" cx="0" cy="-22" r="3"/>
+    </g>
+    <!-- pebble -->
+    <ellipse class="ink-fill" cx="120" cy="115" rx="12" ry="5"/>
+  </g>
+
+  <!-- LEFT sign post: 陌生 -->
+  <g transform="translate(120 460)">
+    <line class="ink" x1="0" y1="0" x2="0" y2="80"/>
+    <rect class="ink-fill" x="-30" y="-20" width="60" height="30"/>
+    <text x="0" y="2" text-anchor="middle" class="label">陌生</text>
+  </g>
+
+  <!-- RIGHT sign post: 愿意聊 -->
+  <g transform="translate(1560 460)">
+    <line class="ink" x1="0" y1="0" x2="0" y2="80"/>
+    <rect class="ink-fill" x="-50" y="-25" width="100" height="35"/>
+    <text x="0" y="-2" text-anchor="middle" class="label">愿意聊</text>
+  </g>
+
+  <!-- ORANGE horizontal rope/line spanning cliffs -->
+  <path class="orange" d="M180 540 L1560 540" stroke-width="4"/>
+
+  <!-- 4 tiles along the orange line -->
+  <g transform="translate(450 480)">
+    <rect class="ink-fill" x="0" y="0" width="160" height="60"/>
+    <text x="80" y="38" text-anchor="middle" class="label">客户 结果 +30%</text>
+  </g>
+  <g transform="translate(680 480)">
+    <rect class="ink-fill" x="0" y="0" width="160" height="60"/>
+    <text x="80" y="38" text-anchor="middle" class="label" font-size="16">「确实有用」—— 小王</text>
+  </g>
+  <g transform="translate(910 480)">
+    <rect class="ink-fill" x="0" y="0" width="160" height="60"/>
+    <!-- mini bar chart -->
+    <rect x="30" y="35" width="14" height="20"/>
+    <rect x="50" y="25" width="14" height="30"/>
+    <rect x="70" y="15" width="14" height="40"/>
+    <rect x="90" y="10" width="14" height="45"/>
+    <rect x="110" y="20" width="14" height="35"/>
+  </g>
+  <g transform="translate(1140 480)">
+    <rect class="ink-fill" x="0" y="0" width="160" height="60"/>
+    <text x="80" y="35" text-anchor="middle" class="label" font-size="22">¥298</text>
+    <line class="ink-thin" x1="20" y1="48" x2="140" y2="48"/>
+  </g>
+
+  <!-- Hiker on left cliff, bending forward, placing tile -->
+  <g transform="translate(380 460)">
+    <!-- legs -->
+    <line class="ink" x1="-4" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="4" y1="80" x2="12" y2="130"/>
+    <path class="ink" d="M-22 130 q12 4 20 0"/>
+    <path class="ink" d="M2 130 q12 4 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-12" y="55" width="24" height="40" fill="#dfe7f5"/>
+    <!-- hoodie bending forward -->
+    <path class="ink" d="M-26 20 q26 -28 52 0 v40 q-26 12 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- right arm reaching out to place tile -->
+    <path class="ink" d="M22 28 q40 20 70 30"/>
+    <!-- head leaning forward -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+  </g>
+
+  <!-- 不是哦 red label -->
+  <text x="300" y="280" class="label-red">不是哦</text>
+  <path stroke="#d32027" stroke-width="3" fill="none" d="M380 290 q-2 30 0 100"/>
+
+  <!-- 小证据 blue label -->
+  <text x="940" y="280" class="label-blue">小证据</text>
+  <path class="blue-stroke" d="M1000 290 q-20 60 -50 100"/>
+
+  <!-- 慢慢铺 label -->
+  <text x="836" y="780" text-anchor="middle" class="label">慢慢铺</text>
+  <path class="ink" d="M836 770 q-20 -50 -40 -100"/>
+</svg>

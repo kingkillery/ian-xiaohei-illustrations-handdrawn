@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #ffffff; stroke: #111111; stroke-width: 2.6; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.4; stroke-linecap: round; stroke-linejoin: round; }
+      .orange-fill { fill: #ef6a1f; }
+      .red-stroke { fill: none; stroke: #d32027; stroke-width: 3; stroke-linecap: round; }
+      .blue-stroke { fill: none; stroke: #1f4ea8; stroke-width: 3; stroke-linecap: round; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 28px; fill: #d32027; }
+      .label-blue { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 24px; fill: #1f4ea8; }
+    </style>
+  </defs>
+
+  <!-- 别直接写 title (red, top center, underlined) -->
+  <text x="836" y="110" text-anchor="middle" class="label-red">别直接写</text>
+  <path class="red-stroke" d="M770 124 q66 8 132 0"/>
+  <!-- red arrow down to hiker's head -->
+  <path class="red-stroke" d="M836 140 q-2 50 0 100"/>
+  <polygon fill="#d32027" points="830,238 842,238 836,250"/>
+
+  <!-- 先判断 label (blue, bottom center) -->
+  <text x="836" y="830" text-anchor="middle" class="label-blue">先判断</text>
+  <!-- blue arrow up to hiker's base -->
+  <path class="blue-stroke" d="M836 800 q2 -50 0 -100"/>
+  <polygon fill="#1f4ea8" points="830,702 842,702 836,690"/>
+
+  <!-- LEFT: 3-drawer filing cabinet -->
+  <g transform="translate(120 250)">
+    <rect class="ink-fill" x="0" y="0" width="240" height="400" rx="6"/>
+    <!-- papers on top -->
+    <rect class="ink-thin" x="30" y="-30" width="60" height="40" fill="#fff" transform="rotate(-10 60 -10)"/>
+    <rect class="ink-thin" x="120" y="-25" width="60" height="40" fill="#fff" transform="rotate(8 150 -5)"/>
+    <!-- drawers -->
+    <rect class="ink" x="20" y="40" width="200" height="100" rx="4"/>
+    <circle class="ink-fill" cx="120" cy="90" r="6"/>
+    <text x="120" y="100" text-anchor="middle" class="label">外部信号</text>
+    <rect class="ink" x="20" y="160" width="200" height="100" rx="4"/>
+    <circle class="ink-fill" cx="120" cy="210" r="6"/>
+    <text x="120" y="220" text-anchor="middle" class="label">内部资产</text>
+    <rect class="ink" x="20" y="280" width="200" height="100" rx="4"/>
+    <circle class="ink-fill" cx="120" cy="330" r="6"/>
+    <text x="120" y="340" text-anchor="middle" class="label">用户反馈</text>
+  </g>
+
+  <!-- 6 orange arrows (3 in, 3 out) -->
+  <!-- inputs -->
+  <path class="orange" d="M380 290 q100 -10 200 0"/>
+  <polygon class="orange-fill" points="580,290 600,282 600,298"/>
+  <path class="orange" d="M380 410 q100 -10 200 0"/>
+  <polygon class="orange-fill" points="580,410 600,402 600,418"/>
+  <path class="orange" d="M380 530 q100 -10 200 0"/>
+  <polygon class="orange-fill" points="580,530 600,522 600,538"/>
+
+  <!-- outputs (out of hiker going right) -->
+  <path class="orange" d="M970 290 q100 -10 200 0"/>
+  <polygon class="orange-fill" points="1170,290 1190,282 1190,298"/>
+  <path class="orange" d="M970 410 q100 -10 200 0"/>
+  <polygon class="orange-fill" points="1170,410 1190,402 1190,418"/>
+  <path class="orange" d="M970 530 q100 -10 200 0"/>
+  <polygon class="orange-fill" points="1170,530 1190,522 1190,538"/>
+
+  <!-- papers emerging from cabinet -->
+  <g class="ink-thin" fill="#fff">
+    <rect x="400" y="270" width="80" height="30"/>
+    <line x1="415" y1="282" x2="465" y2="282" stroke="#111"/>
+    <line x1="415" y1="290" x2="455" y2="290" stroke="#111"/>
+    <rect x="400" y="390" width="80" height="30"/>
+    <line x1="415" y1="402" x2="465" y2="402" stroke="#111"/>
+    <line x1="415" y1="410" x2="455" y2="410" stroke="#111"/>
+    <rect x="400" y="510" width="80" height="30"/>
+    <line x1="415" y1="522" x2="465" y2="522" stroke="#111"/>
+    <line x1="415" y1="530" x2="455" y2="530" stroke="#111"/>
+  </g>
+
+  <!-- CENTER: Hiker as processor character -->
+  <g transform="translate(770 250)">
+    <!-- input papers at top -->
+    <rect class="ink-thin" x="-60" y="20" width="120" height="40" fill="#fff"/>
+    <line class="ink-thin" x1="-45" y1="35" x2="45" y2="35"/>
+    <line class="ink-thin" x1="-45" y1="45" x2="35" y2="45"/>
+
+    <!-- Hiker body (human-shaped) -->
+    <!-- legs -->
+    <line class="ink" x1="-20" y1="350" x2="-30" y2="430"/>
+    <line class="ink" x1="20" y1="350" x2="30" y2="430"/>
+    <path class="ink" d="M-40 430 q10 6 20 0"/>
+    <path class="ink" d="M10 430 q10 6 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-32" y="290" width="64" height="80" fill="#dfe7f5"/>
+    <!-- hoodie body -->
+    <path class="ink" d="M-60 100 q60 -60 120 0 v190 q-60 20 -120 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-4 110 l8 -16 l8 16 z"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="40" r="38" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-38 30 q0 -42 38 -42 q38 0 38 42"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-22 60 q22 26 44 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-40 28 q0 -52 40 -52 q40 0 40 52 z" fill="#cdd9f0"/>
+    <line class="ink-thin" x1="-44" y1="38" x2="44" y2="38"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-44" cy="34" rx="9" ry="14" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="44" cy="34" rx="9" ry="14" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-12" cy="44" r="2.4" fill="#111"/>
+    <circle cx="12" cy="44" r="2.4" fill="#111"/>
+
+    <!-- output papers at right side -->
+    <g fill="#fff" class="ink-thin">
+      <rect x="100" y="60" width="80" height="30"/>
+      <line x1="115" y1="72" x2="165" y2="72" stroke="#111"/>
+      <line x1="115" y1="80" x2="155" y2="80" stroke="#111"/>
+      <rect x="100" y="180" width="80" height="30"/>
+      <line x1="115" y1="192" x2="165" y2="192" stroke="#111"/>
+      <line x1="115" y1="200" x2="155" y2="200" stroke="#111"/>
+      <rect x="100" y="300" width="80" height="30"/>
+      <line x1="115" y1="312" x2="165" y2="312" stroke="#111"/>
+      <line x1="115" y1="320" x2="155" y2="320" stroke="#111"/>
+    </g>
+  </g>
+
+  <!-- RIGHT: 3 output boxes -->
+  <g transform="translate(1200 270)">
+    <rect class="ink-fill" x="0" y="0" width="240" height="80" rx="6"/>
+    <text x="120" y="50" text-anchor="middle" class="label">流量</text>
+    <line class="ink-thin" x1="180" y1="20" x2="240" y2="20"/>
+    <line class="ink-thin" x1="180" y1="32" x2="235" y2="32"/>
+  </g>
+  <g transform="translate(1200 390)">
+    <rect class="ink-fill" x="0" y="0" width="240" height="80" rx="6"/>
+    <text x="120" y="50" text-anchor="middle" class="label">信任</text>
+    <line class="ink-thin" x1="180" y1="20" x2="240" y2="20"/>
+    <line class="ink-thin" x1="180" y1="32" x2="235" y2="32"/>
+  </g>
+  <g transform="translate(1200 510)">
+    <rect class="ink-fill" x="0" y="0" width="240" height="80" rx="6"/>
+    <text x="120" y="50" text-anchor="middle" class="label">转化</text>
+    <line class="ink-thin" x1="180" y1="20" x2="240" y2="20"/>
+    <line class="ink-thin" x1="180" y1="32" x2="235" y2="32"/>
+  </g>
+</svg>

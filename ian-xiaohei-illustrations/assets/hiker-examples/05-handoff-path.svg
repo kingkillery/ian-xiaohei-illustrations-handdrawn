@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" width="1672" height="941">
+  <rect width="1672" height="941" fill="#ffffff"/>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #111111; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-thin { fill: none; stroke: #111111; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill { fill: #ffffff; stroke: #111111; stroke-width: 2.6; stroke-linejoin: round; }
+      .orange { fill: none; stroke: #ef6a1f; stroke-width: 3.4; stroke-linecap: round; stroke-linejoin: round; }
+      .blue-dash { fill: none; stroke: #1f4ea8; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 10 8; }
+      .label { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #111111; }
+      .label-red { font-family: "Comic Sans MS", "Marker Felt", "Segoe Print", "Kaiti", cursive; font-size: 22px; fill: #d32027; }
+    </style>
+  </defs>
+
+  <!-- Far left: simple stick figure on dotted ground -->
+  <g transform="translate(80 600)">
+    <line class="ink-thin" x1="-30" y1="100" x2="160" y2="100" stroke-dasharray="4 4"/>
+    <circle class="ink-fill" cx="20" cy="0" r="14"/>
+    <line class="ink" x1="20" y1="14" x2="20" y2="60"/>
+    <line class="ink" x1="20" y1="25" x2="0" y2="50"/>
+    <line class="ink" x1="20" y1="25" x2="40" y2="50"/>
+    <line class="ink" x1="20" y1="60" x2="5" y2="95"/>
+    <line class="ink" x1="20" y1="60" x2="35" y2="95"/>
+  </g>
+
+  <!-- glowing document -->
+  <g transform="translate(160 540)">
+    <rect class="ink-fill" x="0" y="0" width="100" height="120"/>
+    <line class="ink-thin" x1="15" y1="20" x2="85" y2="20"/>
+    <line class="ink-thin" x1="15" y1="35" x2="75" y2="35"/>
+    <line class="ink-thin" x1="15" y1="50" x2="85" y2="50"/>
+    <circle class="ink" cx="50" cy="80" r="14" fill="#fff"/>
+    <line class="ink-thin" x1="42" y1="80" x2="58" y2="80"/>
+    <!-- radiating lines -->
+    <line class="ink-thin" x1="50" y1="-10" x2="50" y2="-2"/>
+    <line class="ink-thin" x1="110" y1="60" x2="118" y2="60"/>
+    <line class="ink-thin" x1="-10" y1="60" x2="-18" y2="60"/>
+    <line class="ink-thin" x1="50" y1="130" x2="50" y2="138"/>
+  </g>
+
+  <!-- 看到你 label -->
+  <text x="160" y="490" class="label">看到你</text>
+  <path class="ink-thin" d="M210 500 q-2 14 -8 30"/>
+
+  <!-- Hiker on orange path, left-center -->
+  <g transform="translate(440 540)">
+    <!-- legs -->
+    <line class="ink" x1="-4" y1="80" x2="-12" y2="130"/>
+    <line class="ink" x1="4" y1="80" x2="12" y2="130"/>
+    <path class="ink" d="M-22 130 q12 4 20 0"/>
+    <path class="ink" d="M2 130 q12 4 20 0"/>
+    <!-- jeans -->
+    <rect class="ink-thin" x="-12" y="55" width="24" height="40" fill="#dfe7f5"/>
+    <!-- hoodie -->
+    <path class="ink" d="M-26 20 q26 -28 52 0 v40 q-26 12 -52 0 z" fill="#f0f0f0"/>
+    <!-- triangle logo -->
+    <path class="ink-thin" d="M-2 30 l4 -8 l4 8 z"/>
+    <!-- arms forward pulling rope -->
+    <path class="ink" d="M-20 30 q20 -10 50 -20"/>
+    <path class="ink" d="M20 30 q30 -10 60 -20"/>
+    <!-- head -->
+    <circle class="ink" cx="0" cy="0" r="22" fill="#fff"/>
+    <!-- hair -->
+    <path class="ink-thin" d="M-22 -5 q0 -22 22 -22 q22 0 22 22"/>
+    <!-- beard -->
+    <path class="ink-thin" d="M-12 12 q12 14 24 0"/>
+    <!-- cap -->
+    <path class="ink" d="M-24 -8 q0 -28 24 -28 q24 0 24 28 z" fill="#cdd9f0"/>
+    <line class="ink-thin" x1="-26" y1="-2" x2="26" y2="-2"/>
+    <!-- headphones -->
+    <ellipse class="ink" cx="-26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <ellipse class="ink" cx="26" cy="-5" rx="6" ry="9" fill="#cdd9f0"/>
+    <!-- eyes -->
+    <circle cx="-7" cy="2" r="1.6" fill="#111"/>
+    <circle cx="7" cy="2" r="1.6" fill="#111"/>
+  </g>
+
+  <!-- Fishing hook on cylindrical platform -->
+  <g transform="translate(620 540)">
+    <ellipse class="ink-fill" cx="0" cy="60" rx="40" ry="12"/>
+    <rect class="ink-fill" x="-30" y="0" width="60" height="60"/>
+    <!-- hook -->
+    <path class="ink" d="M0 0 q-15 0 -15 15 q0 20 15 25 q15 -5 15 -25"/>
+  </g>
+
+  <!-- 钩子品 label -->
+  <text x="600" y="490" class="label">钩子品</text>
+  <path class="ink-thin" d="M620 500 q0 14 -2 30"/>
+
+  <!-- Filing cabinet / drawer unit -->
+  <g transform="translate(820 480)">
+    <rect class="ink-fill" x="0" y="0" width="180" height="200" rx="6"/>
+    <rect class="ink" x="20" y="30" width="140" height="60" rx="4"/>
+    <circle class="ink-fill" cx="90" cy="60" r="5"/>
+    <rect class="ink" x="20" y="110" width="140" height="60" rx="4"/>
+    <circle class="ink-fill" cx="90" cy="140" r="5"/>
+    <!-- papers sticking out -->
+    <rect class="ink-thin" x="60" y="-15" width="60" height="40" fill="#fff" transform="rotate(-10 90 5)"/>
+    <rect class="ink-thin" x="80" y="-10" width="60" height="40" fill="#fff" transform="rotate(8 110 10)"/>
+  </g>
+
+  <!-- 知识库 label -->
+  <text x="850" y="450" class="label">知识库</text>
+  <path class="ink-thin" d="M910 460 q-2 14 -8 30"/>
+
+  <!-- Castle/dome -->
+  <g transform="translate(1180 440)">
+    <!-- arched building -->
+    <rect class="ink-fill" x="0" y="60" width="200" height="160"/>
+    <path class="ink" d="M0 60 q100 -90 200 0"/>
+    <rect class="ink-fill" x="80" y="120" width="40" height="100" fill="#fff"/>
+    <rect class="ink-fill" x="20" y="100" width="40" height="40" fill="#fff"/>
+    <rect class="ink-fill" x="140" y="100" width="40" height="40" fill="#fff"/>
+    <!-- crown symbol -->
+    <path class="ink" d="M75 20 l15 25 l30 -25 l15 25 l-60 0 z" fill="#dfe7f5"/>
+    <circle class="ink-fill" cx="75" cy="20" r="3"/>
+    <circle class="ink-fill" cx="105" cy="12" r="3"/>
+    <circle class="ink-fill" cx="135" cy="20" r="3"/>
+    <!-- flag pole -->
+    <line class="ink" x1="100" y1="20" x2="100" y2="-20"/>
+    <polygon class="orange-fill" points="100,-20 130,-10 100,0"/>
+  </g>
+
+  <!-- 核心课 label -->
+  <text x="1230" y="410" class="label">核心课</text>
+  <path class="ink-thin" d="M1280 420 q-2 14 -8 30"/>
+
+  <!-- Goal flag far right -->
+  <g transform="translate(1480 600)">
+    <line class="ink" x1="0" y1="0" x2="0" y2="120"/>
+    <polygon class="ink-fill" points="0,0 50,15 0,30"/>
+  </g>
+
+  <!-- 不是结尾 red label -->
+  <text x="1500" y="540" class="label-red">不是结尾</text>
+  <path class="ink-thin" stroke="#d32027" stroke-width="2" d="M1530 550 q-2 14 -8 30"/>
+  <polygon fill="#d32027" points="1516,580 1530,580 1522,592"/>
+
+  <!-- ORANGE wavy horizontal main path -->
+  <path class="orange" d="M180 720 Q 360 700 540 720 T 920 720 T 1300 720 T 1520 720"/>
+
+  <!-- Collection box bottom-left -->
+  <g transform="translate(160 820)">
+    <path class="ink-fill" d="M0 0 L120 0 L120 60 L0 60 z"/>
+    <path class="ink-fill" d="M-10 0 L130 0 L120 -10 L0 -10 z"/>
+    <!-- papers inside -->
+    <rect class="ink-thin" x="20" y="-30" width="60" height="40" fill="#fff"/>
+    <line class="ink-thin" x1="30" y1="-18" x2="70" y2="-18"/>
+    <line class="ink-thin" x1="30" y1="-8" x2="65" y2="-8"/>
+  </g>
+
+  <!-- 新素材 label -->
+  <text x="160" y="780" class="label">新素材</text>
+  <path class="ink-thin" d="M210 790 q-2 14 -8 30"/>
+
+  <!-- BLUE dashed feedback arc -->
+  <path class="blue-dash" d="M1480 740 Q 1200 880 800 880 T 220 850"/>
+  <polygon fill="#1f4ea8" points="225,840 240,852 230,860"/>
+</svg>
